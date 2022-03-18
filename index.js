@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({
     extended:true
 }))
 
-mongoose.connect('mongodb://localhost:27017/mydb',{
+mongoose.connect('mongodb+srv://KiranPal:Pranita1910@cluster0.4oaqg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
@@ -50,7 +50,7 @@ app.get("/",(req,res)=>{
         "Allow-access-Allow-Origin": '*'
     })
     return res.redirect('index.html');
-}).listen(3000);
+});
 
 
-console.log("Listening on PORT 3000");
+//console.log("Listening on PORT 3000");
