@@ -18,6 +18,9 @@
     "mongoose": "^5.12.7",
     "nodemon": "^2.0.15"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "engines": {
     "node": "16.14.0"
   },
