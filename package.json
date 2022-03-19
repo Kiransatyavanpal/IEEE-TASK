@@ -1,10 +1,10 @@
 {
   "name": "registration-form",
   "version": "1.0.0",
-  "main": "C:/Users/kiran/Desktop/IEEE-TASK - Copy/node_modules/mongodb/index.js",
+  "main": "script.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js",
+    "start": "nodemon script.js",
+    "dev": "nodemon script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
