@@ -1,7 +1,7 @@
 {
   "name": "registration-form",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon script.js",
     "dev": "nodemon script.js",
